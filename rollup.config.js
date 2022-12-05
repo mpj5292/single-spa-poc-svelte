@@ -13,7 +13,8 @@ export default {
     sourcemap: true,
     format: "system",
     name: null, // ensure anonymous System.register
-    dir: "dist",
+    file: "dist/midmark-single-spa-poc-svelte.js",
+    inlineDynamicImports: true
   },
   plugins: [
     svelte({
